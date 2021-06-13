@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --navy: hsl(179, 100%, 13%);
+}
+
+/*Element Sets*/
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 16px;
+  word-spacing: -1px;
+}
+
+/*Grid Set*/
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+  height: 100vh;
+}
+
+.card-col {
+  display: flex;
+flex-direction: column;
+padding: 40px;
+line-height: 20px;
+}
+
+.icon-box {
+  width: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/*Button Set*/
+.btn {
+  background-color: white;
+  padding: 14px;
+  font-size: 14px;
+  border-radius: 25px;
+  align-self: baseline;
+  margin-top: 100px;
+}
+
+.btn:hover {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+}
+
+/*Class Colors*/
+
+#btn-orange {
+  color: var(--orange);
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
+#btn-cyan {
+  color: var(--cyan);
+}
+
+.cyan {
+  background-color: var(--cyan);
+}
+
+#btn-navy {
+  color: var(--navy);
+}
+
+.navy {
+  background-color:var(--navy);
+}
